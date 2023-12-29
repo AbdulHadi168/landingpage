@@ -6,6 +6,10 @@
   background-color:#5A5A5A;
   width:100%;
 }
+body{
+ padding:0;
+ margin:0;
+}
 @media (max-width:600px){
   p{
     font-family:sans-serif;
@@ -69,10 +73,11 @@ h2{
   bottom:30px;
 }
 #video{
-  position:relative;
-  left:25rem;
-  height:350px;
-  width:550px;
+  width:80%;
+}
+#How-It-Works{
+  display:flex;
+  justify-content: center;
 }
 hr{ 
   width:400px;
